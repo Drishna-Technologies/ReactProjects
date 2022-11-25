@@ -1,0 +1,40 @@
+body{
+  overflow: hidden;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+
+.motion{
+  position: absolute;
+  left:17.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  /* background-color: #000000; */
+  color: #ffffff;
+  font-weight: 600;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.motiondiv{
+  background-color: #000000;
+  width: 99%;
+  height: 100vh;
+}
+
+.motion-1{
+  position: absolute;
+  left:18rem;
+  top: 8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  /* background-color: #000000; */
+  color: #ffffff;
+  font-weight: 400;
+  margin-top: 16rem;
+}
